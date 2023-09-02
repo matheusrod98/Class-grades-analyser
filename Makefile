@@ -9,7 +9,7 @@ endif
 CCFLAGS = -Wall -std=c11
 CXXFLAGS = -Wall -std=c++11
 
-OBJECTS = sqlite3.o main.o
+OBJECTS = sqlite3.o DAO.o Main.o
 
 EXEC = class-grades-analyser
 
